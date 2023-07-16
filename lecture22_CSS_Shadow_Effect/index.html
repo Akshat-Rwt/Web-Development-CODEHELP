@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* Custom variable */
+
+        :root{
+            --primary-color: brown ;
+            --custom-width: 330px ;
+        }
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+           
+            background-color: aquamarine;
+            width: var(--custom-width);
+            height: 330px;
+            border: 1pxs solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+            box-shadow: 10px 15px var(--primary-color);
+
+            
+            /* Add shadow --> */
+            /* box-shadow: 10px 15px brown; */
+
+            /* Blur Radius 3rd component --> */ 
+            /* box-shadow: 10px 15px 50px brown; */
+
+            /* Spread radius -->  */
+            /* box-shadow: 10px 15px 5px 40px brown; */
+
+            /* Using inset /invert --> */
+            /* box-shadow: inset 10px 15px brown; */
+
+            /* Multiple Shadow  */
+            /* box-shadow: 10px 15px red, 15px 8px green ; */
+
+
+            
+        }
+
+        #head1{
+            /* text-shadow: 12px 13px 1px orange; */
+
+            /* text-shadow: orange 12px 12px 2px; */
+
+            /* text-shadow: white 12px 13px; */
+
+            text-shadow: 12px 13px ;
+        }
+
+
+        #image{
+            height: 50px;
+            width: 50px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box">
+
+            <img src="logo.jpg" id ="image" alt="">
+
+            <h2 id="head1">Welcome to Code help</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis rerum nam quam ratione amet ipsa.</p>
+
+        </div>
+
+    </div>
+</body>
+</html>
