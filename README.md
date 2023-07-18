@@ -17,3 +17,10 @@ By combining these technologies, MERN provides a comprehensive toolset for devel
 MERN's main advantages include the use of a single language (JavaScript) throughout the stack, efficient data flow between the client and server using JSON, and the ability to create responsive and interactive user interfaces. It has gained popularity among developers due to its scalability, flexibility, and the vibrant community supporting it.
 
 ![image](https://github.com/Akshat-Rwt/Web-Development-CODEHELP/blob/main/MERN%20img.webp)
+
+# Basic Portfolio
+https://earnest-piroshki-f0fa8c.netlify.app
+
+# Recipe Website 
+https://soft-cassata-eb802e.netlify.app
+
