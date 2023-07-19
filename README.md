@@ -27,7 +27,7 @@ Link : https://soft-cassata-eb802e.netlify.app
 # Card Website 
 
 1. First Card
-Link : https://velvety-concha-28a54a.netlify.app
+Link : https://soft-cassata-eb802e.netlify.app
 
 2. Second Card
 Link : https://velvety-concha-28a54a.netlify.app
